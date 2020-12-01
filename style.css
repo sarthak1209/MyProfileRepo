@@ -1,0 +1,18 @@
+body{
+    color: blue;
+}
+
+h1{
+    color: green;
+}
+h2{
+    color: red;
+}
+
+#lib-header{
+    color: grey;
+}
+
+.para{
+    color: blueviolet;
+}
