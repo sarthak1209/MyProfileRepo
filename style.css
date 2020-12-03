@@ -4,6 +4,7 @@
 /* declaring variables in css */
 :root{
     --primary-color: #14B8A6;
+    --grey-color:#9CA3AF;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -53,11 +54,14 @@ border: 1px solid var(--primary-color);
     padding-right: 0.5rem;
 }
 
+
+/* nav */
 .navigation{
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
-    border-bottom-left-radius: 2rem;
+    padding: .3rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
 }
 .navigation .nav-brand{
    font-weight: bold;
@@ -71,4 +75,25 @@ border: 1px solid var(--primary-color);
 .navigation .link{
     color: white;
     /* float: right; */
+}
+
+/* header */
+
+.hero{
+ padding: 2rem;
+}
+.hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    
+}
+
+.hero .heading{
+    padding-top: 1rem;
+    color: var(--grey-color);
+}
+
+.heading .heading-inverted{
+    color: var(--primary-color);
 }
