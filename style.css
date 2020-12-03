@@ -9,6 +9,7 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
 }
 /** container **/
 .container{
@@ -91,6 +92,7 @@ border: 1px solid var(--primary-color);
 }
 
 .hero .heading{
+    text-align: center;
     padding-top: 1rem;
     color: var(--grey-color);
 }
@@ -109,4 +111,21 @@ border: 1px solid var(--primary-color);
 }
 .ow{
     background-color: var(--off-white);
+}
+
+
+/* footer */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+}
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
