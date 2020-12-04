@@ -1,96 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- 
-        CSS way 1 style tag
-        <style>
-        body {
-            color: red;
-        }
-    </style> -->
-    <!-- 2nd way of doing CSS : external link -->
+    <title>Home | Sarthak Lav</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <H1 >Sarthak's Component Library.</H1>
-
-    <p > I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
-    </p>
-
-    <hr>
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h1>Another heading</h1>
-    <h2>This is second biggest heading</h2>
-
-    <p >Let me show you the normal text. This is free flowing and will wrap at the end like a paragraph. </p>
-    <small >This is relatively smaller text.</small>
-    <small>I didn't know about this tag before Thank you Tanay Pratap.</small>
-
-    <hr>
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div class="container" >This is a fluid container and it wiil go till the end of the page.</div>
-
-    <h3>center container</h3>
-    <div class="container container-center">This is a centered container and it will go till the specified width.</div>
-
-    <hr>
-    <h2>@links</h2>
-
-    <a class="link link-primary" href="/">Primary Link</a>
-    <a class="link link-secondary" href="/">Secondary Link</a>
-    <hr>
-
-
-    <h2>@lists</h2>
-
-    <h3>Unordered list</h3>
-    <ul class="list-non-bullet">
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-    </ul>
-
-
-    <h3>Unordered Inline list</h3>
-    <ul class="list-non-bullet list-item-inline">
-        <li  class="list-item-inline">Inline item one </li>
-        <li  class="list-item-inline">Inline item two </li>
-        <li  class="list-item-inline">Inline item three</li>
-    </ul>
-    <h3>Reversed ordered list</h3>
-    <ol reversed> 
-        <li>milk</li>
-        <li>eggs</li>
-        <li>bread</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
     <nav class="navigation">
         <div class="nav-brand">I am brand</div>
         <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline"> <a class="link" href="/">home</a></li>
+            <li class="list-item-inline"> <a class="link link-active" href="/">home</a></li>
             <li class="list-item-inline"> <a class="link"  href="/">products</a></li>
             <li class="list-item-inline"> <a class="link"  href="/">about</a></li>
 
         </ul>
     </nav>
-
-    <hr>
-
-    <h2>@header</h2>
-
+    
     <header class="hero">
         <img class="hero-img" src="images/hero.svg" alt="">
         <h1 class="heading">Sarthak Lav the <span class="heading-inverted" >web developer </span></h1>
@@ -98,31 +24,32 @@
     </header>
 
 
-    <hr>
-    <h2>@section</h2>
-    <section class="section">
+    <section class="section ow">
         <div class="container container-center">
-            <h1>White section</h1>
-            <p>Node.js is an open-source, cross-platform, back-end, JavaScript runtime environment that executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a "JavaScript everywhere" paradigm,[6] unifying web-application development around a single programming language, rather than different languages for server- and client-side scripts.
-
-                .</p>
+            <h1>technologies</h1>
+            <p>I'm familiar with HTML5, ....</p>
         </div>
         
     </section>
 
-    <section class="section ow"> 
+    <section class="section"> 
         <div class="container container-center">
-            <h1>Off White section</h1>
-            <p>Node.js is an open-source, cross-platform, back-end, JavaScript runtime environment that executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a "JavaScript everywhere" paradigm,[6] unifying web-application development around a single programming language, rather than different languages for server- and client-side scripts.
-
-                .</p>
+            <h1>projects</h1>
+            <p>I have done this and that projects.</p>
+            <a class="link link-primary" href="/">See Projects</a>
         </div>
        
     </section>
 
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>blogs</h1>
+            <p>See my blogs I've written this and that blogs</p>
+            <a class="link link-secondary" href="/">Read Blogs</a>
+        </div>
+        
+    </section> 
 
-    <hr>
-    <h2>@footer</h2>
     <footer class="footer">
         <div class="footer-header">Some small heading inside footer</div>
         <ul class="social-links list-non-bullet">
@@ -139,8 +66,5 @@
 
     </footer>
 
-
-
 </body>
-
 </html>
