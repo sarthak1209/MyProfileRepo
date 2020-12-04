@@ -115,6 +115,7 @@ border: 1px solid var(--primary-color);
 }
 .ow{
     background-color: var(--off-white);
+    border-radius: 1.5rem;
 }
 
 
